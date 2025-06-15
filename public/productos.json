@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Brownie",
+        "precio": 12000,
+        "imagen": "https://imgs.search.brave.com/WkRFR4hINXhpZONWz8kSSL4Tr4-9iU3ibCzHFuwtCbE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzYxLzAyLzQ1/LzM2MF9GXzU2MTAy/NDU5NF9scFJScU5W/QXNZZkU2RGx0c244/Z1Y1Y2tpNWdSWlRQ/bS5qcGc",
+        "categoria": "Postres",
+        "descripcion": "Delicioso brownie de chocolate con nuez"
+    },
+    {
+        "id": 2,
+        "nombre": "Alfajor de Maizena",
+        "precio": 5000,
+        "imagen": "https://imgs.search.brave.com/FtNZFZiFPID20MCcV4F4aCGTxtpcoG4s7ilU1mJYCpk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/bVVBcEFhNHVXSjhF/X016ZUF1S3J0S0do/eUcwOXlFbGZNR3JF/NU00MEZSZGpJQnlj/X1ltdkN1bk53NlZJ/X0s3YTMwVTJwcEVZ/ZktJOU9pcHRBbDla/ajA4V0FDVkhiWVct/eFZzbkk0Mm90RFp4/QldoNzIxRkktVEJV/STh3WTI5aHladkRR/dUdkQ0FaZk0vczE2/MDAwL21haXplbmEr/Mi5qcGc",
+        "categoria": "Alfajores",
+        "descripcion": "Delicioso alfajor de maizena con dulce de leche"
+    },
+    {
+        "id": 3,
+        "nombre": "Cookie de Chocolate",
+        "precio": 8000,
+        "imagen": "https://imgs.search.brave.com/5VzoWyB3Ok_DW0wbWjgkjs14hiAub002q5oW_f264OU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2JiL2E3/L2Y4L2JiYTdmODM2/MWExMzE4M2MxZTQ1/NWZhMjhkZjI2ZWQy/LmpwZw",
+        "categoria": "Cookies",
+        "descripcion": "Deliciosa cookie de chocolate con chips"
+    },
+    {
+        "id": 4,
+        "nombre": "Lemon Pie",
+        "precio": 15000,
+        "imagen": "https://imgs.search.brave.com/CZud0UpAO_ks_zX8fd84KbuAyc5Cc5yOo71mg1wuCi4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA5/NzIyMTQ3L3Bob3Rv/L2xlbW9uLW1lcmlu/Z3VlLXBpZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9T2ZI/R3h3dVV1c2xkeHpM/aXc2ZUw4SlNfSnY1/S0NaTXFMb1laWjNm/MDB6OD0",
+        "categoria": "Postres",
+        "descripcion": "Delicioso lemon pie de chocolate con merenge"
+    },
+    {
+        "id": 5,
+        "nombre": "Alfajor de Nuez",
+        "precio": 7000,
+        "imagen": "https://imgs.search.brave.com/tRO-z018P8NaCoD6F-oZw3m3zCys2VO1dBgFnCytsA8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2xhcmluLmNvbS9p/bWcvMjAyMC8wOS8y/NS8wY1J2S0xCa01f/MzYweDI0MF9fMS5q/cGc",
+        "categoria": "Alfajores",
+        "descripcion": "Delicioso alfajor de nuez con dulce de leche"
+    },
+    {
+        "id": 6,
+        "nombre": "Tita de Limon",
+        "precio": 10000,
+        "imagen": "https://imgs.search.brave.com/FlruWYuuYEkLU18CwBzAq5mN-F_O9scEYblTnvoh74c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yaW5j/b25nYXVjaG8ubmV0/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzAyL2dhbGxldGl0/YXMtaGF2YW5uYS1k/ZS1saW1vbi1jb24t/Y2hvY29sYXRlLTUt/NjAweDYwMC5qcGc",
+        "categoria": "Cookies",
+        "descripcion": "Deliciosa tita de limon bañada con chocolate"
+    }
+]

@@ -1,0 +1,132 @@
+/* Contenedor principal */
+.producto-detalle {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Imagen del producto */
+  .producto-detalle img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Contenedor de información */
+  .info-producto {
+    flex: 1;
+  }
+  
+  /* Título del producto */
+  .info-producto h3 {
+    font-size: 2.4rem;
+    margin: 0 0 15px;
+    color: #222;
+  }
+  
+  /* Descripción */
+  .info-producto p {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.7;
+  }
+  
+  /* Precio */
+  .info-producto h6 {
+    font-size: 1.8rem;
+    color: #007b00;
+    margin: 0 0 20px;
+  }
+  
+  /* Botón "Agregar al Carrito" */
+  .agregar-carrito-btn {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .agregar-carrito-btn:hover {
+    background-color: rgb(149, 66, 80);
+    transform: scale(1.02);
+  }
+  
+  /* Contenedor de ItemCount y botón de agregar */
+  .acciones-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Botón "Volver" */
+  .volver-btn {
+    background-color: pink;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 40px auto 20px 40px; /* ← este valor cambió */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .volver-btn:hover {
+    background-color: rgb(149, 66, 80);
+    transform: scale(1.05);
+    text-decoration: underline;
+  }
+
+  .link-volver {
+    text-decoration: none;
+  }
+  
+  /* Responsive: para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .producto-detalle {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .producto-detalle img {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    .info-producto h3 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .info-producto p,
+    .info-producto h6 {
+      text-align: center;
+    }
+  
+    .acciones-producto {
+      width: 100%;
+    }
+  
+    .volver-btn {
+      margin-left: 20px;
+    }
+  }
+  

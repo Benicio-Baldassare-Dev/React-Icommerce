@@ -1,0 +1,44 @@
+.cards-conteiner{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   place-self: center;
+   padding: 20px;
+   margin: 20px;
+}
+.card-info{ 
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(243, 223, 226);
+}
+
+.card-info h3{
+    font-size: 26px;
+}
+.card-info p{
+    font-size: 18px;
+}
+.card-info h6{
+    font-size: 20px;
+}
+.card-info button{
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.card-info button:hover{
+    background-color: rgb(149, 66, 80);
+    color: white;
+}
+
+.card-info img{
+    width: 397px;
+	height: 400px;
+	object-fit: cover;
+}

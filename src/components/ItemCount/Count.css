@@ -1,0 +1,20 @@
+.counter-conteiner {
+    padding: 20px;
+}
+
+.counter-conteiner span{
+    margin: 0 20px;
+}
+
+.counter-conteiner button{
+    margin: 0 20px;
+    padding: 10px 20px;
+    background-color: pink;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.counter-conteiner button:hover{
+    background-color: rgb(149, 66, 80);
+}
