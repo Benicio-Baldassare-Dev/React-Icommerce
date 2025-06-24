@@ -16,11 +16,15 @@ function ItemCount() {
     }, [count])
 
     return(
+        <>        
         <div className="counter-conteiner">
             <button onClick={handleRestar}>-</button>
             <span>{count}</span>
             <button onClick={handleSumar}>+</button>
         </div>
+        <button className="agregar-carrito-btn">Agregar al Carrito</button>
+        </>
+
     )
 }
 
