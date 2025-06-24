@@ -48,6 +48,9 @@ export default function ItemListConteiner ({ products }) {
     }, [categoryId, products]);
 
     return(
-        <ItemListWithLoading items={items} />
+    <>
+      <ItemListWithLoading items={items} />
+    </>
+        
     );
 }
