@@ -38,6 +38,7 @@ const ItemsFilter = ({ children }) => {
     };
 
     return(
+    <>
         <div>
             <select 
                 value={filter} 
@@ -51,6 +52,7 @@ const ItemsFilter = ({ children }) => {
             </select>
             {children && children(filteredProducts)}
         </div>
+        </>
     )
 }
 
