@@ -10,6 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <>
        <BrowserRouter>
          <NavBar/>
          <Routes>
@@ -20,6 +21,7 @@ function App() {
               <Route path='/contact' element={<div>Contact</div>} />
          </Routes>
        </BrowserRouter>
+       </>
   )
 }
 
