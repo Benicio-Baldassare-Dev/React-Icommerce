@@ -31,7 +31,6 @@ function ItemDetailConteiner () {
           <h6>${detail.precio}</h6>
           <div className="acciones-producto">
             <ItemCount stock={detail.stock} initial={0} />
-            <button className="agregar-carrito-btn">Agregar al Carrito</button>
           </div>
         </div>
       </div>
